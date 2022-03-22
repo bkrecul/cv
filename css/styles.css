@@ -141,7 +141,7 @@ p {
   margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1080px) {
   /* For mobile phones: */
   .skill-row, .intro, .skill-info {
     width: 95%;
@@ -150,7 +150,7 @@ p {
   }
   .skill-img-r, .skill-img-l{
     float: none;
-    width: 50%;
+    width: 30%;
     margin: 0px ;
     text-align: center;
   }
