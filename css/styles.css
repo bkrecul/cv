@@ -141,10 +141,12 @@ p {
   margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 800px) {
   /* For mobile phones: */
   .skill-row, .intro, .skill-info {
     width: 95%;
+    align-items: center;
+    text-align: center;
   }
   .skill-img-r, .skill-img-l{
     float: none;
@@ -153,7 +155,7 @@ p {
     text-align: center;
   }
   .skill-info{
-    text-align: justify;
+    text-align: center;
   }
   body{
     font-size: 0.85rem;
