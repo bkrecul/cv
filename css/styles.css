@@ -1,9 +1,4 @@
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .skill-row, .intro, .skill-img-l, .skill-img-l {
-    width: 100%;
-  }
-}
+
 
 .footer-link {
   color: #11999E;
@@ -144,4 +139,11 @@ p {
 
 .bottom-text {
   margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .skill-row, .intro {
+    width: 95%;
+  }
 }
