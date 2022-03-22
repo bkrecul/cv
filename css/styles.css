@@ -143,7 +143,20 @@ p {
 
 @media only screen and (max-width: 1080px) {
   /* For mobile phones: */
-  .skill-row, .intro {
+  .skill-row, .intro, .skill-info {
     width: 95%;
   }
+  .skill-img-r, .skill-img-l{
+    float: none;
+    width: 50%;
+    margin: 0px ;
+    text-align: center;
+  }
+  .skill-info{
+    text-align: justify;
+  }
+  body{
+    font-size: 0.85rem;
+  }
 }
+
