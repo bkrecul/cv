@@ -157,6 +157,9 @@ p {
   .skill-info{
     text-align: center;
   }
+  .footer-link {
+    font-size: 0.6rem;
+  }
   body{
     font-size: 0.85rem;
   }
