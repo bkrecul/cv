@@ -142,11 +142,7 @@ p {
   width: 50%;
 }
 
-.top-cloud {
-  display: block;
-  margin-left: auto;
-  margin-right: 30%;
-}
+
 
 .bottom-text {
   margin-bottom: 100px;
@@ -156,18 +152,18 @@ p {
   /* For mobile phones: */
   h1 {
     line-height: 1.5;
+    font-size: 4rem;
   }
   .hospital-img{
-    width: 80%;
+    width: 70%;
   }
   .bottom-cloud {
     width: 0%;
   }
-  .top-cloud:{
-    float: none;
-    margin: 0;
-    left: auto;
-    right: auto;
+  .top-cloud {
+    display: block;
+    margin-left: auto;
+    margin-right: 30%;
   }
   .skill-row, .intro, .skill-info {
     width: 95%;
