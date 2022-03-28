@@ -6,8 +6,10 @@
   <title>Benjamin Krecul</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="bk.ico">
+  <script src="https://kit.fontawesome.com/3329740a9d.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
@@ -18,12 +20,12 @@
     <img class="top-cloud" src="images/cloud.png" alt="nube-imagen">
     <h1>Benjamin Krecul</h1>
     <img class="bottom-cloud" src="images/cloud.png" alt="nube-imagen">
-    <h2>Ingeniero Biomédico</h2>
-    <img src="images/hospital.png" alt="hospital imagen creada por Please Don't sell My Artwork AS IS en Pixabay">
+    <h2 class="titulo">Ingeniero Biomédico</h2>
+    <img class="hospital-img" src="images/hospital.png" alt="hospital imagen creada por Please Don't sell My Artwork AS IS en Pixabay">
   </div>
   <div class="middle-container">
     <div class="profile">
-      <img src="images/yo.png" alt="Foto de perfil de Benjamin Krecul">
+      <img class="foto-perfil" src="images/yo.png" alt="Foto de perfil de Benjamin Krecul">
       <h2>Hola.</h2>
       <p class="intro">Soy estudiante de Ingeniería Biomédica y Técnico en Informática. Programador en Python e interesado en Machine Learning orientada a la Medicina. Del Team Invierno.</p>
     </div>
@@ -31,28 +33,7 @@
     <div class="skills">
       <h2>Mis habilidades.</h2>
 
-      <div class="skill-row container-fluid">
-        <img class="skill-img-r" src="images/programming.png" alt="imagen de ventana de programación">
-        <h3>Programación</h3>
-        <p class="skill-info">Desarrollé trabajos utilizando el IDE Lazarus, enlazado a bases de datos SQL. Actualmente me enfoco en Python, ya que estoy desarrollando el <a href="http://www.biomedica.esc.efn.uncor.edu/?page_id=72">proyecto integrador</a> de la carrera sobre dicho lenguaje.</p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img-l" src="images/print3d.png" alt="imagen de impresión 3D creada por krzysztof-m en pixabay">
-        <h3>Diseño e Impresión 3D</h3>
-        <p class="skill-info">Fuí Tutor en el proyecto extensionista "Tridimensionando Ideas" del Programa Educación en Ciencia y Tecnología de la Universidad Nacional de Córdoba.</p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img-r" src="images/repair.png" alt="imagen de computadora">
-        <h3>Computación</h3>
-        <p class="skill-info">Realizo trabajos de mantenimiento y reemplazo de componentes internos de computadoras / dispositivos electrónicos, y mantenimiento e instalación de software.</p>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img-l" src="images/biomedic.png" alt="imagen de ECG">
-        <h3>Ingeniería Clínica</h3>
-        <p class="skill-info">Hice las Prácticas Profesionales en el departamento de Ingeniería Clínica del Hospital Córdoba, donde realizaba el mantenimiento, la reparación y trazabilidad de equipamiento biomédico, en base a las normas IEC e IRAM.</p>
-      </div>
-
-      <!-- <div class="skill-row">
+      <!-- <div class="skill-row container-fluid">
         <img class="skill-img-r" src="images/programming.png" alt="imagen de ventana de programación">
         <h3>Programación</h3>
         <p class="skill-info">Desarrollé trabajos utilizando el IDE Lazarus, enlazado a bases de datos SQL. Actualmente me enfoco en Python, ya que estoy desarrollando el <a href="http://www.biomedica.esc.efn.uncor.edu/?page_id=72">proyecto integrador</a> de la carrera sobre dicho lenguaje.</p>
@@ -73,20 +54,41 @@
         <p class="skill-info">Hice las Prácticas Profesionales en el departamento de Ingeniería Clínica del Hospital Córdoba, donde realizaba el mantenimiento, la reparación y trazabilidad de equipamiento biomédico, en base a las normas IEC e IRAM.</p>
       </div> -->
 
+      <div class="skill-row">
+        <img class="skill-img-r" src="images/programming.png" alt="imagen de ventana de programación">
+        <h3>Programación</h3>
+        <p class="skill-info">Desarrollé trabajos utilizando el IDE Lazarus, enlazado a bases de datos SQL. Actualmente me enfoco en Python, ya que estoy desarrollando el <a href="http://www.biomedica.esc.efn.uncor.edu/?page_id=72">proyecto integrador</a> de la carrera sobre dicho lenguaje.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-img-l" src="images/print3d.png" alt="imagen de impresión 3D creada por krzysztof-m en pixabay">
+        <h3>Diseño e Impresión 3D</h3>
+        <p class="skill-info">Fuí Tutor en el proyecto extensionista "Tridimensionando Ideas" del Programa Educación en Ciencia y Tecnología de la Universidad Nacional de Córdoba.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-img-r" src="images/repair.png" alt="imagen de computadora">
+        <h3>Computación</h3>
+        <p class="skill-info">Realizo trabajos de mantenimiento y reemplazo de componentes internos de computadoras / dispositivos electrónicos, y mantenimiento e instalación de software.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-img-l" src="images/biomedic.png" alt="imagen de ECG">
+        <h3>Ingeniería Clínica</h3>
+        <p class="skill-info">Hice las Prácticas Profesionales en el departamento de Ingeniería Clínica del Hospital Córdoba, donde realizaba el mantenimiento, la reparación y trazabilidad de equipamiento biomédico, en base a las normas IEC e IRAM.</p>
+      </div>
+
     </div>
     <hr>
     <div class="contact-me">
-      <h2>Mantente en Contacto</h2>
-      <h3>Si también preferis el invierno.</h3>
-      <p class="bottom-text">¿También te gusta el frío? Escribime para programar mientras tomamos un cafe frente al Glaciar Perito Moreno.</p>
+      <h2>Mi Contacto</h2>
+      <h3>Por si también preferis el invierno.</h3>
+      <p class="bottom-text">Agendá mi correo entre tus contactos.</p>
       <a class="btn" href="mailto:benjamin.krecul@mi.unc.edu.ar?subject=Contacto">Contáctame</a>
     </div>
   </div>
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://telegram.me/bkrecul">Telegram</a>
-    <a class="footer-link" href="https://github.com/bkrecul">GitHub</a>
-    <a class="footer-link" href="https://wa.me/542966515202">Whatsapp</a>
+    <a class="footer-link" href="https://telegram.me/bkrecul"><i class="fa-brands fa-telegram"></i> Telegram</a>
+    <a class="footer-link" href="https://github.com/bkrecul"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a class="footer-link" href="https://wa.me/542966515202"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
     <p class="copyright">© 2022 Benjamin Krecul.</p>
   </div>
 
